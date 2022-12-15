@@ -6,3 +6,11 @@ export function addMovies(movies) {
     },
   };
 }
+export function addToMovie(id) {
+  return {
+    type: "ADD_TO_MOVIE",
+    payload: {
+      id: id,
+    },
+  };
+}
