@@ -1,8 +1,8 @@
-export function addGoodToCart(id) {
-    return {
-      type: 'ADD_GOOD_TO_CART',
-      payload: {
-        id: id
-      }
-    }
-  }
+export function addMovies(movies) {
+  return {
+    type: "ADD_MOVIES",
+    payload: {
+      movies: movies,
+    },
+  };
+}
