@@ -18,7 +18,7 @@ class MovieItem extends Component {
                 <img className="movie-item__poster" src={Poster} alt={Title} />
                 <div className="movie-item__info">
                     <h3 className="movie-item__title">{Title}&nbsp;({Year})</h3>
-                    <button type="button" className="movie-item__add-button" onClick={() => { addMovie(imdbID); }} disabled={this.testFavorites(imdbID)} >{this.testFavorites(imdbID) ? "Added" : "Add"}</button>
+                    <button type="button" className="movie-item__add-button" onClick={() => { addMovie(imdbID); }} disabled={this.testFavorites(imdbID)} >{this.testFavorites(imdbID) ? "Добавлен" : "Добавить в список"}</button>
                 </div>
             </article>
         );

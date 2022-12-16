@@ -14,3 +14,11 @@ export function addToMovie(id) {
     },
   };
 }
+export function removeToMovie(id) {
+  return {
+    type: "REMOVE_TO_MOVIE",
+    payload: {
+      id: id,
+    },
+  };
+}

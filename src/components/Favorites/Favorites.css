@@ -31,3 +31,47 @@
     opacity: 0.9;
     transition: all 0.2s linear;
 }
+
+.link__none {
+    display: none;
+}
+
+.link__block {
+    width: 150px;
+    border: none;
+    background-color: #496DDB;
+    padding: 10px 15px;
+    color: #FFEEDB;
+    font-size: 14px;
+    transition: all 0.2s linear;
+    display: block;
+}
+.link__block:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all 0.2s linear;
+}
+.favorites__save:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+.favorites__list--item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+}
+.favorites__list--item button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid #496DDB;
+    background-color: #496DDB;
+    color: white;
+    border-radius: 3px;
+    outline: none;
+}
+.favorites__list--item button:hover{
+     background-color: red;
+     border: 1.5px solid red;
+}
